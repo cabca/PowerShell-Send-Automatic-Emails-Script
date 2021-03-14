@@ -1,4 +1,6 @@
-﻿#Start-Process Outlook
+Set-ExecutionPolicy Unrestricted
+
+Start-Process Outlook
 $document = Import-Csv -Path 'C:\Users\Beju\Desktop\Book1.csv'
 
 
